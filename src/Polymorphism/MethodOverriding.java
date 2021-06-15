@@ -1,4 +1,4 @@
-package OOPS.Polymorphism;
+package Polymorphism;
 
 public class MethodOverriding {
     public static void main(String[] args) {
@@ -6,13 +6,13 @@ public class MethodOverriding {
         b.run();
     }
 }
-class A{
+class A{  //main class
     public void run(){
         System.out.println("In class A.");
     }
 }
-class B extends A{
-    public void run(){
+class B extends A{       // derived class
+    public void run(){  //override method from base class
         System.out.println("In class B.");
     }
 }

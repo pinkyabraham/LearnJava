@@ -1,6 +1,6 @@
-package OOPS.Interface;
+package Interface;
 
-public class InterfaceExample implements TestInterface {
+public class InterfaceExample implements TestInterface {            //interface implemented
     public void print(){
         System.out.println("Inside the print method.");
         System.out.println("The value of the static integer is " + x);

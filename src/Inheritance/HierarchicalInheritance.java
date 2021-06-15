@@ -1,4 +1,4 @@
-package OOPS.Inheritance;
+package Inheritance;
 
 public class HierarchicalInheritance {
     public static void main(String[] args) {
@@ -18,13 +18,13 @@ public class HierarchicalInheritance {
 class updatedSalary{
     float incerementSalary = 10000;
 }
-class AssistantSystemsEngineer extends updatedSalary{
+class AssistantSystemsEngineer extends updatedSalary{       //  same class and more than one child
     float salary = 23000;
 }
-class SystemsEngineer extends updatedSalary{
+class SystemsEngineer extends updatedSalary{            //  same class and more than one child
     float salary = 43000;
 }
-class SeniorSystemsEngineer extends updatedSalary{
+class SeniorSystemsEngineer extends updatedSalary{          //  same class and more than one child
     float salary = 55000;
 }
 

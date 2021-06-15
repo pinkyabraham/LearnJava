@@ -1,4 +1,4 @@
-package OOPS.Inheritance;
+package Inheritance;
 
 public class MultipleInheritance{
     public static void main(String[] args){
@@ -20,12 +20,12 @@ public class MultipleInheritance{
     }
  }
 
-interface Ignition {
+interface Ignition {  //parent class1
     public void start();
  }
- interface Accelerate {
+ interface Accelerate {  //parent class2
     public void rev();
  }
- interface Brakes extends Ignition, Accelerate{
+ interface Brakes extends Ignition, Accelerate{  // 2 parent class and a single child
     public void stop();
  }

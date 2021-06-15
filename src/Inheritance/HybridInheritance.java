@@ -1,4 +1,4 @@
-package OOPS.Inheritance;
+package Inheritance;
 
 public class HybridInheritance {
     public static void main(String[] args) {
@@ -13,27 +13,28 @@ public class HybridInheritance {
         right.rightLeaf();
     }
 }
-class A{
+class A{  //base class
     public void firstMethod(){
         System.out.println("This is from the Root class.");
     }
 }
-class AB extends A{
+class AB extends A{   //subclass ab extends base class a
     public void leftHierarchy(){
         System.out.println("Left Branch initiated.");
     }
 }
-class AC extends AB{
+class AC extends AB{    // subclass ac extends derived class ab 
+                        //multilevel inheritance
     public void leftLeaf(){
         System.out.println("Left Leaf Reached.");
     }
 }
-class BB extends A{
+class BB extends A{   
     public void rightHierarchy(){
         System.out.println("Right Branch initiated.");
     }
 }
-class BC extends BB{
+class BC extends BB{ 
     public void rightLeaf(){
         System.out.println("Right Leaf Reached.");
     }

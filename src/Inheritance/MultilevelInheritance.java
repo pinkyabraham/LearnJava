@@ -1,4 +1,4 @@
-package OOPS.Inheritance;
+package Inheritance;
 
 public class MultilevelInheritance {
     public static void main(String[] args) {
@@ -15,12 +15,12 @@ class Cars{
         System.out.println("\tType : Car");
     }
 }
-class Brands extends Cars{
+class Brands extends Cars{  // class brand derived from class cars
     public void brandName(){
         System.out.println("\tBrand : BMW");
     }
 }
-class Models extends Brands{
+class Models extends Brands{ // class model from derived class brand
     public void modelName(){
         System.out.println("\tModel : M3");
     }

@@ -13,10 +13,10 @@ import java.util.HashMap;
 public class Maps {
     
     public static void main(String[] args) {
-      
+      // create map
         Map<String, Integer> numbers;
         numbers = new HashMap<>();
-
+      //key value pair
         numbers.put("One", 1);
         numbers.put("Two", 2);
         System.out.println("Map: " + numbers);
@@ -29,7 +29,7 @@ public class Maps {
         System.out.println("Entries: " + numbers.entrySet());
 
         int value = numbers.remove("Two");
-        System.out.println("Removed Value: " + value);
+        System.out.println("Removed Value: " + value);  // print
     }
 }
 

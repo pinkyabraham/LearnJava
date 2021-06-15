@@ -1,4 +1,4 @@
-package OOPS.Inheritance;
+package Inheritance;
 
 /**
  * SingleInheritance
@@ -9,11 +9,11 @@ public class SingleInheritance {
         dog1.display();
     }
 }
-class Animal{
+class Animal{ // parent class
     String type;
     int legCount;
 }
-class Dog extends Animal{
+class Dog extends Animal{  // one child for one parent
     String petName;
     String dogBreed;
 
@@ -24,7 +24,7 @@ class Dog extends Animal{
         this.legCount = 4;
     }
 
-    public void display(){
+    public void display(){  //print
         System.out.println("\n\tAnimal : Dog\n\tName : " + this.petName + "\n\tType : " + this.type + "\n\tlegs : " + this.legCount + "\n\tBreed : " + this.dogBreed);
     }
 }
